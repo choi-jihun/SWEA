@@ -7,16 +7,6 @@ import java.util.StringTokenizer;
 
 public class SWEA_등산로조성 {
 
-    static class Node {
-        int x;
-        int y;
-
-        public Node(int x, int y) {
-            this.x = x;
-            this.y = y;
-        }
-    }
-
     static int[][] arr;
     static int N, K, max;
     static int[] dx = { 1, -1, 0, 0 };
